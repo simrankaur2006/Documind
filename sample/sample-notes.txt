@@ -1,0 +1,9 @@
+Machine Learning Notes
+
+Overfitting occurs when a model learns the training data too well, including noise, and performs poorly on unseen data. Common remedies are regularization (L1/L2), dropout, early stopping, more training data, and cross-validation.
+
+Underfitting happens when a model is too simple to capture the underlying pattern. Increase model capacity or train longer to fix it.
+
+The bias-variance tradeoff: high bias means underfitting, high variance means overfitting. Good models balance both.
+
+Gradient descent updates parameters in the direction of the negative gradient of the loss. Learning rate controls step size; too large diverges, too small converges slowly.
